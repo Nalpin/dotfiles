@@ -208,9 +208,6 @@ export LC_ALL=POSIX
 # http://stackoverflow.com/a/677212
 command -v rlwrap >/dev/null 2>&1 || { echo >&2 "Install rlwrap to use node: sudo apt-get install -y rlwrap";}
 
-# 2.8) rvm path
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
 ## ------------------------------
 ## -- 3) User-customized code  --
 ## ------------------------------
